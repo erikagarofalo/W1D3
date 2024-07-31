@@ -1,0 +1,127 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+main,
+footer {
+  margin: 0 auto;
+  width: 50%;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.logo,
+.container-pretitolo {
+  text-align: center;
+}
+
+.logo img {
+  width: 220px;
+}
+
+.container-pretitolo {
+  background-color: #fdfbf1;
+  border-top: 2px solid #ffe3a2;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+.container-pretitolo p {
+  color: #004d4c;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.1em;
+  color: #333333;
+}
+
+.container-immagine p {
+  color: #333333;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.video-container video {
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  border-radius: 10px;
+  margin-left: -30px;
+}
+
+figcaption {
+  text-align: center;
+  line-height: 4;
+  font-weight: 500;
+  color: #999999;
+}
+
+.feature-container {
+  border-left: 2px solid #ffe6ab;
+  padding-left: 10px;
+}
+
+.feature-container p {
+  margin: 0;
+}
+
+.titolo-feature {
+  color: #b5460f;
+  font-weight: 600;
+}
+
+a {
+  color: #71a7a8;
+  font-weight: 500;
+}
+
+.sezione-ingredienti {
+  margin-top: 60px;
+}
+
+.container-ingredienti,
+.container-descrizione {
+  border-top: 1px solid #71a7a8;
+  padding-top: 20px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+ul {
+  line-height: 2;
+  font-weight: 500;
+}
+
+.boldino {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.boldino span {
+  font-weight: 500;
+}
+
+.txt {
+  font-size: 1.1em;
+}
